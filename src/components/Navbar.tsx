@@ -4,7 +4,11 @@ interface Props {}
 
 const Navbar: React.FC<Props> = (props) => {
   return (
-    <nav></nav>
+    <nav>
+      <a href="#">EN</a>
+      <div className="separator" />
+      <a href="#">FR</a>
+    </nav>
   );
 };
 

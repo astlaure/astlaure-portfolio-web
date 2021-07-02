@@ -1,0 +1,66 @@
+@use "../abstracts/variables" as *;
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+  }
+
+  > div {
+    max-width: 48rem;
+    padding: 0 1rem;
+  }
+
+  .title {
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .description {
+    margin: 1rem 0;
+
+    p:first-of-type {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  ul > li {
+    margin-bottom: 2rem;
+    position: relative;
+    padding-left: 2rem;
+
+    i {
+      position: absolute;
+      left: 0;
+      top: 0.25rem;
+    }
+  }
+
+  .socials {
+    a {
+      display: inline-block;
+      padding: 0 0.5rem;
+
+      &:first-of-type {
+        padding-left: 0;
+      }
+
+      &:last-of-type {
+        padding-right: 0;
+      }
+    }
+    i {
+      font-size: 2rem;
+      color: $color-black;
+    }
+  }
+}
