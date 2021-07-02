@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "profession": "Ingénieur logiciel",
+    "intro": "Salut, je suis Alexandre.",
+    "description": "Je suis un passionné du web qui adore explorer toutes les nouvelles technos possible et inimaginable. Mes technologies principales sont Typescript, React et NodeJS; je fais aussi du Java/Kotlin avec Spring et du Laravel. J'adore Javascript/Typescript, et idéalement je ferais beaucoup de programmation durant mes journées de travail. J'aimerais réussir à monter une entreprise à son meilleur et pour y arriver je m'engage à continuer d'approfondir mes connaissances en suivant le courant des nouvelles technos.",
+    "why": "Pourquoi moi?",
+    "reason01": "Je suis un passionné, vraiment.",
+    "reason02": "J'ai une très bonne écoute et j'aime collaborer et travailler en équipe.",
+    "reason03": "Je continue d'apprendre et de progresser sans cesse afin de pouvoir innover et être toujours à l'affut des nouvelles technos."
+  }
+}

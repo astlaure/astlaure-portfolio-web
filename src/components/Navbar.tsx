@@ -1,13 +1,19 @@
 import React from 'react';
+import { getI18n } from 'react-i18next';
 
 interface Props {}
 
 const Navbar: React.FC<Props> = (props) => {
+
+  const handleClick = async (lng: 'en' | 'fr') => {
+    await getI18n().changeLanguage(lng);
+  };
+
   return (
     <nav>
-      <a href="#">EN</a>
+      <button type="button" onClick={() => handleClick('en')}>EN</button>
       <div className="separator" />
-      <a href="#">FR</a>
+      <button type="button" onClick={() => handleClick('fr')}>FR</button>
     </nav>
   );
 };

@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as *;
+
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+
+  button {
+    color: $color-black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: none;
+    background: no-repeat;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .separator {
+    border-left: 2px solid #333333;
+    margin: 0 0.5rem;
+    height: 2rem;
+    display: inline-block;
+  }
+}
